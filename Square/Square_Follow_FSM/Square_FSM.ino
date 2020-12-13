@@ -79,7 +79,7 @@ void setup() {
   // Flag up reset to Serial monitor
   if (SERIAL_ACTIVE)Serial.println("*** RESET ***");
 
-  Calibration(1000);  //calibrating line sensors
+  // Calibration(1000);  //calibrating line sensors
 
   state = INITIAL_STATE; //first value of state
 
